@@ -192,7 +192,7 @@
         <Param name="End Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Experiment" updates="constant" val="" valType="extendedCode"/>
         <Param name="End JS Routine" updates="constant" val="" valType="extendedCode"/>
-        <Param name="End Routine" updates="constant" val="if nCorr &lt;= 6:&amp;#10;    training.finished = False&amp;#10;    &amp;#10;if nCorr &gt;= 6:&amp;#10;    print(&quot;you got one right&quot;)&amp;#10;    training.finished = True&amp;#10;&amp;#10;   " valType="extendedCode"/>
+        <Param name="End Routine" updates="constant" val="if nCorr &gt;= 6:&amp;#10;    print(&quot;you got one right&quot;)&amp;#10;    training.finished = True&amp;#10;    " valType="extendedCode"/>
         <Param name="disabled" updates="None" val="False" valType="bool"/>
         <Param name="name" updates="None" val="setMsg" valType="code"/>
       </CodeComponent>
